@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="https://static.vecteezy.com/system/resources/previews/018/931/004/original/calculator-icon-icon-of-calculator-sign-and-symbol-png.png" sizes="16x16"> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="java.js"></script>
+    <link rel="stylesheet" href="cs.css">
+</head>
+
+
+<body>
+   <h1 class="h1">CALCULADORA</h1>
+
+   <div class="calculadora"> 
+    <input type="number" id="num1">
+    <input type="number" id="num2">
+</div>
+
+<div class="botones" >
+    <button id="sumar" onclick="sumar()">Sumar</button>
+    <button id="restar" onclick="restar()">Restar</button>
+    <button id="dividir" onclick="dividir()">Dividir</button>
+    <button id="multiplicar" onclick="multiplicar()">Multiplicar</button>
+    <p id="result">Aqui tu resultado:</p>
+</div>
+
+<div class="comentario" >   
+<h2 onclick="gracias()" id="Gracias" >¡¡Podes dejar tu comentario aqui!!</h2>
+<textarea class="coment" id="comentario" placeholder="Escribe tu comentario"></textarea>
+<br>
+<button onclick="agregarComentario()">Agregar Comentario</button>
+</div>
+
+<div id="contenedor-comentarios"></div>
+<div class="barra-negra">
+    <p id="derechos" >Derechos Reservados para Elese ©</p>
+    <p id="marca"> Calculadora registrada™</p>
+  </div>
+ 
+  
+</body>
+
+
+</html>
